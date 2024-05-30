@@ -8128,7 +8128,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #6495ED !important;
 }
 
 .bg-secondary {
@@ -10901,7 +10901,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #4169E1;
   }
   #sideNav .navbar-collapse {
     display: flex;
