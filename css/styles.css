@@ -11240,3 +11240,33 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Interests 섹션 스타일 추가 */
+.interests-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.interests-icons i {
+  color: #bd5d38;
+}
+
+.interests-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+}
+
+.carousel-item {
+  min-width: 300px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+}
