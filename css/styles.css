@@ -10970,3 +10970,273 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body 스타일 */
+body {
+  font-family: 'Muli', sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+  margin: 5vh 10vw;
+}
+
+/* 공통 링크 스타일 */
+a {
+  color: #5f3dc4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #343a40;
+}
+
+/* 네비게이션 스타일 */
+.navbar {
+  background-color: #5f3dc4;
+  padding: 1rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* 섹션 스타일 */
+.resume-section {
+  padding: 5rem 0;
+}
+
+.resume-section-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #5f3dc4;
+}
+
+/* About 섹션 스타일 */
+#about .resume-section-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#about .resume-section-content .subheading {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#about .resume-section-content p.lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Education 섹션 스타일 */
+.education-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.education-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-content {
+  flex-grow: 1;
+}
+
+.education-date {
+  flex-shrink: 0;
+  text-align: right;
+  font-weight: bold;
+  color: #5f3dc4;
+  margin-left: 1rem;
+}
+
+.education-date span {
+  display: block;
+}
+
+.education-content h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-content .subheading {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.education-content p {
+  margin-bottom: 0.5rem;
+}
+
+.education-content .d-flex {
+  margin-top: 1rem;
+}
+
+/* 이미지 및 비디오 스타일 */
+.education-content img,
+.education-content iframe {
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.education-content iframe {
+  border: none;
+}
+
+/* Skills 섹션 스타일 */
+#skills .resume-section-content .subheading {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#skills .resume-section-content .dev-icons i {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+#skills .resume-section-content .fa-ul li {
+  margin-bottom: 1rem;
+}
+
+/* Interests 섹션 스타일 */
+#interests .resume-section-content p {
+  margin-bottom: 1rem;
+}
+
+/* Activities 섹션 스타일 */
+#activities .resume-section-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#activities .resume-section-content li {
+  margin-bottom: 1rem;
+}
+
+#activities .resume-section-content .fa-trophy {
+  color: #ffc107;
+}
+
+/* Learning Plan 섹션 스타일 */
+/* 공통 스타일 */
+body {
+  font-family: 'Muli', sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+  margin: 5vh 10vw;
+}
+
+/* 섹션 스타일 */
+.resume-section {
+  padding: 5rem 0;
+}
+
+.resume-section-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #5f3dc4;
+}
+
+/* Learning Plan 섹션 스타일 */
+#learning-plan .resume-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#learning-plan .resume-section-content h2 {
+  font-size: 2.5rem;
+  color: #5f3dc4;
+  margin-bottom: 1rem;
+}
+
+#learning-plan .resume-section-content a {
+  text-decoration: none;
+}
+
+#learning-plan .content {
+  width: 100%;
+  text-align: center;
+}
+
+#learning-plan .content .chartBox {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+#learning-plan .content .chartBox table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#learning-plan .content .chartBox th,
+#learning-plan .content .chartBox td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#learning-plan .content .chartBox th {
+  background-color: #748ffc;
+  color: white;
+}
+
+#learning-plan .content .chartBox td {
+  background-color: #f8f0fc;
+}
+
+#learning-plan .content .chartBox td:hover {
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #f1e7fe;
+}
+
+#learning-plan .title h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+#learning-plan .title .plan {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#learning-plan .title .plan:hover {
+  color: #5f3dc4;
+  font-weight: 600;
+  cursor: pointer;
+}
