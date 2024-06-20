@@ -11120,6 +11120,31 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+/* skill-progress 스타일 추가 */
+.skill-progress {
+  margin-top: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h4 {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
 /* Interests 섹션 스타일 */
 #interests .resume-section-content p {
   margin-bottom: 1rem;
@@ -11269,4 +11294,12 @@ body {
 .carousel-item img {
   width: 100%;
   border-radius: 10px;
+}
+.dev-icons .list-inline-item {
+  text-align: center;
+}
+
+.dev-icons .list-inline-item p {
+  margin-top: 5px;
+  font-size: 12px; /* 글씨 크기를 줄임 */
 }
